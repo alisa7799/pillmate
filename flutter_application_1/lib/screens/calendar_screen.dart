@@ -212,7 +212,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
                   onPressed: () => Navigator.of(context).pop(),
                   child: const Text('취소'),
                 ),
-                if (event != null) // 일정 있을때만만 삭제 버튼 표시
+                if (event != null) // 이벤트가 있을 때만 삭제 버튼 표시
                   TextButton(
                     onPressed: () {
                       final eventDate = _normalizeDate(event.dateTime);
