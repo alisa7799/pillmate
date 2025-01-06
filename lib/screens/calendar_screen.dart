@@ -95,9 +95,9 @@ class _CalendarScreenState extends State<CalendarScreen> {
       }
     }
 
-    if (endDate != null && !dates.contains(endDate)) {
+    /*if (endDate != null && !dates.contains(endDate)) {
       dates.add(DateTime(endDate.year, endDate.month, endDate.day, startDate.hour, startDate.minute));
-    }
+    }*/
 
     return dates;
   }
